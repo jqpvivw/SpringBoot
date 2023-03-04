@@ -90,4 +90,9 @@ public class TableController {
     public String editable_table(){
         return "table/editable_table";
     }
+
+    @GetMapping
+    public String Test(){
+        return "table/editable_table";
+    }
 }
