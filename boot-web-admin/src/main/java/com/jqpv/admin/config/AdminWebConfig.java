@@ -28,11 +28,11 @@ public class AdminWebConfig implements WebMvcConfigurer {
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new LoginInterceptor())
                 .addPathPatterns("/**")
-                .excludePathPatterns("/","/login","/css/**","/js/**","/images/**","/fonts/**");
+                .excludePathPatterns("/","/login","/css/**","/js/**","/images/**","/fonts/**","/lh");
 
         registry.addInterceptor(redisUrlCountInterceptor)
                 .addPathPatterns("/**")
-                .excludePathPatterns("/","/login","/css/**","/js/**","/images/**","/fonts/**");
+                .excludePathPatterns("/","/login","/css/**","/js/**","/images/**","/fonts/**","/lh");
     }
 
 }

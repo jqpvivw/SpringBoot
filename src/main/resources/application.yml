@@ -1,0 +1,22 @@
+Person:
+  userName: 林梦
+  boss:  false
+  birth: 2004/8/23
+  age: 18
+  interests: [唱，跳，rap，篮球]
+  animal: [阿猫,阿狗,唔三,唔四]
+  score: {english:90,math:90}
+  salarys:
+    - 8000
+    - 9000
+  pet:
+    name: 阿猫
+    weight: 12
+  allPets:
+    sick:
+    - {name: 阿狗 ,weight: 25}
+    - name: 阿城
+      weight: 22
+    health:
+      - {name: 阿挺 ,weight: 50}
+      - {name: 阿林 ,weight: 55}

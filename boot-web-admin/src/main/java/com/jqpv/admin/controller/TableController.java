@@ -91,8 +91,8 @@ public class TableController {
         return "table/editable_table";
     }
 
-    @GetMapping
+    @GetMapping("/lh")
     public String Test(){
-        return "table/editable_table";
+        return "lh";
     }
 }
